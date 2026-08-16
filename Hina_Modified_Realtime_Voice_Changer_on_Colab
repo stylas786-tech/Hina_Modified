@@ -3,6 +3,16 @@
     {
       "cell_type": "markdown",
       "metadata": {
+        "id": "view-in-github",
+        "colab_type": "text"
+      },
+      "source": [
+        "<a href=\"https://colab.research.google.com/github/stylas786-tech/Hina_Modified/blob/main/Hina_Modified_Realtime_Voice_Changer_on_Colab\" target=\"_parent\"><img src=\"https://colab.research.google.com/assets/colab-badge.svg\" alt=\"Open In Colab\"/></a>"
+      ]
+    },
+    {
+      "cell_type": "markdown",
+      "metadata": {
         "id": "oup1gy4hi7nU"
       },
       "source": [
@@ -76,7 +86,7 @@
         "# @title **[Optional]** Connect to Google Drive\n",
         "# @markdown Using Google Drive will automatically save your uploaded models for later use.\n",
         "\n",
-        "Use_Drive=True #@param {type:\"boolean\"}\n",
+        "Use_Drive=False #@param {type:\"boolean\"}\n",
         "notebook_env=0\n",
         "# Check what platform the notebook is running on\n",
         "# if os.path.exists('/content'):\n",
@@ -468,7 +478,8 @@
     "colab": {
       "gpuType": "T4",
       "private_outputs": true,
-      "provenance": []
+      "provenance": [],
+      "include_colab_link": true
     },
     "kaggle": {
       "accelerator": "gpu",
